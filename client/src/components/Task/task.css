@@ -1,0 +1,65 @@
+.tasks h2{
+text-align: center;
+margin:50px 0px;
+font-size:40px;
+color: blue;
+}
+
+
+
+
+.tasks-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.task-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+ 
+  h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  p {
+    margin: 10px 0px;
+    font-size: 1rem;
+    color: #666;
+  }
+}
+.welcome-page{
+  text-align: center;
+  margin-top: 180px;
+}
+.welcome-message {
+  font-size: 50px;
+ font-family: "poppins",sans-serif;
+  text-align: center;
+}
+
+.login-message {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "poppins",sans-serif;
+}
+
+.no-task{
+  text-align: center;
+ margin-top: 300px;
+ font-size: 30px;
+}

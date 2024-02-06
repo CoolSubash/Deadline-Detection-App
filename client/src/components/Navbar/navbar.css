@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins",sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+
+}
+.logout{
+  border: none;
+  font-size: 16px;
+  font-family: "poppins",sans-serif;
+  outline: none;
+  background-color: #fff;
+ display: inline-block;
+ cursor: pointer;
+}
+.left-section {
+  font-size: 30px;
+}
+
+.right-section {
+  display: flex;
+  gap: 20px;
+ 
+  align-items: center;
+}
+
+.active {
+  color: blue;
+}
+.right-section a {
+  color: #000;
+  text-decoration: none;
+}
+/* Additional Styling for the Detection App text */
+.detection-app {
+  font-weight: bold;
+}
+
